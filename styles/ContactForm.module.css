@@ -1,0 +1,18 @@
+.contact {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #fff8dc;
+}
+
+.contact h2 {
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #25d366;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+}
