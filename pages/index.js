@@ -31,6 +31,18 @@ export default function Home() {
         <meta name="twitter:title" content="IC Catering | Layanan Catering Terbaik di Sidomulyo Pekanbaru" />
         <meta name="twitter:description" content="Layanan catering terpercaya di Pekanbaru dengan menu lezat dan harga terjangkau." />
         <meta name="twitter:image" content="https://catering.andhim.net/images/og.webp" />
+  {/* Google Analytics */}
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-M8N6FYLBN8"></script>
+  <script dangerouslySetInnerHTML={{
+    __html: `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-M8N6FYLBN8', {
+        page_path: window.location.pathname,
+      });
+    `
+  }} />
       </Head>
       <Hero />
       <About />
